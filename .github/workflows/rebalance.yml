@@ -1,0 +1,38 @@
+name: Monthly AI Stock Rebalance
+
+on:
+  schedule:
+    # हर महीने की 1 तारीख को सुबह 9:00 AM IST (3:30 AM UTC) पर ऑटो-रन होगा
+    - cron: '30 3 1 * *'
+  workflow_dispatch: # यह बटन देगा जिससे आप जब चाहें मैन्युअली भी रन कर सकते हैं
+
+jobs:
+  run-ai-screener:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # डेटा अपडेट करके वापस सेव करने की अनुमति
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run AI Screener Script
+        run: |
+          python ai_tracker.py
+
+      - name: Commit & Push New Portfolio Data
+        run: |
+          git config --global user.name "AI Bot"
+          git config --global user.email "bot@github.com"
+          git add portfolio_data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto Rebalance: Live Market Sync" && git push)
