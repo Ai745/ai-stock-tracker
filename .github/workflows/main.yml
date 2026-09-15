@@ -1,0 +1,7 @@
+# InvestingPro जैसा Fair Value (Trailing PE vs Forward PE)
+forward_pe = info.get("forwardPE", pe_ratio)
+if forward_pe and pe_ratio and forward_pe > 0:
+    # अगर कंपनी की अर्निंग्स बढ़ रही हैं तो वाजिब फेयर वैल्यू
+    target_price = round(current_price * (pe_ratio / forward_pe), 2)
+else:
+    target_price = round(current_price * 1.08, 2)
