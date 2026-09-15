@@ -1,0 +1,173 @@
+{
+  "lastUpdated": "15 Sep 2026, 09:21 AM",
+  "stocks": [
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFC BANK LTD",
+      "price": 717.4,
+      "fairValue": 994.49,
+      "upside": 38.6,
+      "aiScore": 85,
+      "action": "ADD TO PORTFOLIO",
+      "actionClass": "buy",
+      "pe": 15.7,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "ICICIBANK",
+      "name": "ICICI BANK LTD.",
+      "price": 1353.5,
+      "fairValue": 1745.55,
+      "upside": 29.0,
+      "aiScore": 85,
+      "action": "ADD TO PORTFOLIO",
+      "actionClass": "buy",
+      "pe": 17.5,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "SUNPHARMA",
+      "name": "SUN PHARMACEUTICAL IND L",
+      "price": 1841.5,
+      "fairValue": 2167.21,
+      "upside": 17.7,
+      "aiScore": 85,
+      "action": "ADD TO PORTFOLIO",
+      "actionClass": "buy",
+      "pe": 36.5,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "SBIN",
+      "name": "STATE BANK OF INDIA",
+      "price": 971.1,
+      "fairValue": 1263.1,
+      "upside": 30.1,
+      "aiScore": 85,
+      "action": "ADD TO PORTFOLIO",
+      "actionClass": "buy",
+      "pe": 10.4,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "RELIANCE",
+      "name": "RELIANCE INDUSTRIES LTD",
+      "price": 1239.0,
+      "fairValue": 1676.85,
+      "upside": 35.3,
+      "aiScore": 75,
+      "action": "ADD TO PORTFOLIO",
+      "actionClass": "buy",
+      "pe": 22.4,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "LT",
+      "name": "LARSEN & TOUBRO LTD.",
+      "price": 3840.7,
+      "fairValue": 4499.52,
+      "upside": 17.2,
+      "aiScore": 75,
+      "action": "ADD TO PORTFOLIO",
+      "actionClass": "buy",
+      "pe": 31.8,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "MARUTI",
+      "name": "MARUTI SUZUKI INDIA LTD.",
+      "price": 12290.0,
+      "fairValue": 15933.15,
+      "upside": 29.6,
+      "aiScore": 75,
+      "action": "ADD TO PORTFOLIO",
+      "actionClass": "buy",
+      "pe": 26.9,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "INFY",
+      "name": "INFOSYS LIMITED",
+      "price": 1078.5,
+      "fairValue": 1204.1,
+      "upside": 11.6,
+      "aiScore": 70,
+      "action": "HOLD",
+      "actionClass": "hold",
+      "pe": 14.0,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "ITC",
+      "name": "ITC LTD",
+      "price": 259.25,
+      "fairValue": 327.0,
+      "upside": 26.1,
+      "aiScore": 70,
+      "action": "HOLD",
+      "actionClass": "hold",
+      "pe": 16.4,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "name": "BAJAJ FINANCE LIMITED",
+      "price": 1007.9,
+      "fairValue": 1157.53,
+      "upside": 14.8,
+      "aiScore": 70,
+      "action": "HOLD",
+      "actionClass": "hold",
+      "pe": 30.9,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "TCS",
+      "name": "TATA CONSULTANCY SERV LT",
+      "price": 2268.7,
+      "fairValue": 2470.17,
+      "upside": 8.9,
+      "aiScore": 60,
+      "action": "HOLD",
+      "actionClass": "hold",
+      "pe": 16.5,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "HINDUNILVR",
+      "name": "HINDUSTAN UNILEVER LTD.",
+      "price": 1953.7,
+      "fairValue": 2419.16,
+      "upside": 23.8,
+      "aiScore": 60,
+      "action": "HOLD",
+      "actionClass": "hold",
+      "pe": 43.3,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "name": "ASIAN PAINTS LIMITED",
+      "price": 2410.0,
+      "fairValue": 3021.44,
+      "upside": 25.4,
+      "aiScore": 60,
+      "action": "HOLD",
+      "actionClass": "hold",
+      "pe": 48.5,
+      "trend": "Consolidating"
+    },
+    {
+      "ticker": "BHARTIARTL",
+      "name": "BHARTI AIRTEL LIMITED",
+      "price": 1824.3,
+      "fairValue": 2320.64,
+      "upside": 27.2,
+      "aiScore": 50,
+      "action": "HOLD",
+      "actionClass": "hold",
+      "pe": 38.2,
+      "trend": "Consolidating"
+    }
+  ]
+}
